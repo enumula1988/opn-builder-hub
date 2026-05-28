@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OPN Builder Hub</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:#0b1020;
+      color:white;
+    }
+
+    header{
+      padding:60px 20px;
+      text-align:center;
+      background:linear-gradient(135deg,#111827,#1e3a8a);
+    }
+
+    header h1{
+      font-size:50px;
+      margin-bottom:10px;
+    }
+
+    header p{
+      font-size:20px;
+      color:#cbd5e1;
+    }
+
+    .btn{
+      margin-top:25px;
+      display:inline-block;
+      padding:14px 28px;
+      background:#6366f1;
+      color:white;
+      border-radius:10px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .section{
+      padding:60px 20px;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+      margin-top:30px;
+    }
+
+    .card{
+      background:#111827;
+      padding:25px;
+      border-radius:16px;
+      border:1px solid #1f2937;
+    }
+
+    .card h3{
+      margin-top:0;
+      color:#818cf8;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#94a3b8;
+      border-top:1px solid #1f2937;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>OPN Builder Hub</h1>
+  <p>
+    A lightweight dashboard for exploring OPN Chain builder activity and ecosystem tools.
+  </p>
+
+  <a class="btn" href="#">
+    Connect Wallet
+  </a>
+</header>
+
+<section class="section">
+
+  <h2>Builder Features</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Wallet Verification</h3>
+      <p>
+        Verify on-chain deployments and connect builder wallets securely.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Live Leaderboards</h3>
+      <p>
+        Track builder rankings, scores, and community activity in real time.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Submission Tracking</h3>
+      <p>
+        Monitor project submissions with clean status tracking.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Builder Reputation</h3>
+      <p>
+        Build a public profile and earn verifiable on-chain credibility.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section">
+
+  <h2>OPN Ecosystem Stats</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Active Builders</h3>
+      <p>1,200+</p>
+    </div>
+
+    <div class="card">
+      <h3>Projects Submitted</h3>
+      <p>350+</p>
+    </div>
+
+    <div class="card">
+      <h3>Badges Minted</h3>
+      <p>870+</p>
+    </div>
+
+  </div>
+
+</section>
+
+<footer>
+  Built for the OPN Chain ecosystem • Web3 Builder Dashboard
+</footer>
+
+</body>
+</html>
